@@ -13,6 +13,9 @@
 		DBBFD196267E351C001D6004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBFD194267E351C001D6004 /* Main.storyboard */; };
 		DBBFD198267E351E001D6004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBFD197267E351E001D6004 /* Assets.xcassets */; };
 		DBBFD19B267E351E001D6004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBFD199267E351E001D6004 /* LaunchScreen.storyboard */; };
+		DBBFD1A3267E3A8B001D6004 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFD1A2267E3A8B001D6004 /* Petition.swift */; };
+		DBBFD1A5267E3B23001D6004 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFD1A4267E3B23001D6004 /* Petitions.swift */; };
+		DBBFD1A7267E513D001D6004 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFD1A6267E513D001D6004 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DBBFD197267E351E001D6004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBBFD19A267E351E001D6004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBBFD19C267E351E001D6004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBFD1A2267E3A8B001D6004 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		DBBFD1A4267E3B23001D6004 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		DBBFD1A6267E513D001D6004 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				DBBFD18E267E351C001D6004 /* AppDelegate.swift */,
 				DBBFD190267E351C001D6004 /* SceneDelegate.swift */,
 				DBBFD192267E351C001D6004 /* ViewController.swift */,
+				DBBFD1A6267E513D001D6004 /* DetailViewController.swift */,
+				DBBFD1A2267E3A8B001D6004 /* Petition.swift */,
+				DBBFD1A4267E3B23001D6004 /* Petitions.swift */,
 				DBBFD194267E351C001D6004 /* Main.storyboard */,
 				DBBFD197267E351E001D6004 /* Assets.xcassets */,
 				DBBFD199267E351E001D6004 /* LaunchScreen.storyboard */,
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBBFD193267E351C001D6004 /* ViewController.swift in Sources */,
+				DBBFD1A3267E3A8B001D6004 /* Petition.swift in Sources */,
 				DBBFD18F267E351C001D6004 /* AppDelegate.swift in Sources */,
+				DBBFD1A7267E513D001D6004 /* DetailViewController.swift in Sources */,
 				DBBFD191267E351C001D6004 /* SceneDelegate.swift in Sources */,
+				DBBFD1A5267E3B23001D6004 /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
